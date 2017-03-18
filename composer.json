@@ -1,0 +1,13 @@
+{
+    "name": "isfonzar/tesouro-direto",
+    "description": "Module that retrieves information on Brazilian Public Debt (\"Tesouro Direto\") bonds and rates.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "icaro",
+            "email": "icaro.isf@gmail.com"
+        }
+    ],
+    "require": {}
+}
