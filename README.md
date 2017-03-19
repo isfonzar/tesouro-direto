@@ -2,7 +2,7 @@
 <a href="https://packagist.org/packages/isfonzar/tesouro-direto"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
 <a href="https://packagist.org/packages/isfonzar/tesouro-direto"><img src="https://img.shields.io/badge/Version-0.1-brightgreen.svg" alt="Latest Stable Version"></a>
 
-## About *tesouro-direto* ![Language Badge]
+## About *tesouro-direto*
 *tesouro-direto* is a php library and module that retrieves information on Brazilian Public Debt ("Tesouro Direto") bonds and rates.
 tesouro-direto is on beta. Pull Requests [are welcome](https://github.com/isfonzar/tesouro-direto#contributing)
 
