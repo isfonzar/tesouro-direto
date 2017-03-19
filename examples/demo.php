@@ -4,8 +4,6 @@
 
     use isfonzar\TesouroDireto\TesouroDireto;
 
-    $ch = curl_init("http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos");
+    $tesouroDireto = new TesouroDireto();
 
-    $lines_string=curl_exec($ch);
-
-    var_dump($lines_string); exit;
+    print_r($tesouroDireto->fetch());

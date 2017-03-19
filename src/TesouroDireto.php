@@ -2,10 +2,20 @@
 
     namespace isfonzar\TesouroDireto;
 
+    use isfonzar\TesouroDireto\Providers\Fazenda;
+    use isfonzar\TesouroDireto\Providers\ProviderStrategy;
+
     class TesouroDireto
     {
-        public function get()
-        {
+        private $provider;
 
+        public function __construct()
+        {
+            $this->provider = new ProviderStrategy(new Fazenda());
+        }
+
+        public function fetch()
+        {
+            return $this->provider->fetch();
         }
     }

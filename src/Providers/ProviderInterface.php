@@ -4,5 +4,5 @@
 
     interface ProviderInterface
     {
-        public function getAll();
+        public function fetch();
     }
