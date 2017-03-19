@@ -4,7 +4,8 @@
 
 ## About *tesouro-direto*
 *tesouro-direto* is a php library and module that retrieves information on Brazilian Public Debt ("Tesouro Direto") bonds and rates.
-tesouro-direto is on beta. Pull Requests [are welcome](https://github.com/isfonzar/tesouro-direto#contributing)
+
+This library is on beta. Pull Requests [are welcome](https://github.com/isfonzar/tesouro-direto#contributing)
 
 ## Installation
 
